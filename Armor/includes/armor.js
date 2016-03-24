@@ -362,11 +362,6 @@ $("document").ready(function()
 			        processData:false,
 			    success: function(data, textStatus, jqXHR)
 			    {
-			 			$(".UserForm").hide("slow");
-					       		$("#overlay").fadeOut('slow', function() 
-									{
-				            			$(this).remove();
-									});
 			    },
 
 			     error: function(jqXHR, textStatus, errorThrown)
@@ -405,7 +400,13 @@ $("document").ready(function()
 			        processData:false,
 			    success: function(data, textStatus, jqXHR)
 			    {
-			    	$(".ShippingForm").hide("slow");
+			    },
+			     error: function(jqXHR, textStatus, errorThrown)
+				     {
+				     },
+			     complete: function(jqXHR, textStatus)
+			    	{
+			 			$(".ShippingForm").hide("slow");
 		       		$(".ThankYou")
 		       		.css("top", $(window).height()/2+$(window).scrollTop() + "px")
 					.css("left", $(window).width()/2+$(window).scrollLeft() + "px")
@@ -418,17 +419,6 @@ $("document").ready(function()
 	            			$(this).remove();
 						});
    					});
-			    },
-			     error: function(jqXHR, textStatus, errorThrown)
-				     {
-				     },
-			     complete: function(jqXHR, textStatus)
-			    	{
-			 			$(".UserForm").hide("slow");
-					       		$("#overlay").fadeOut('slow', function() 
-									{
-				            			$(this).remove();
-									});
 			    	}         
 			    });
 			    e.preventDefault(); //Prevent Default action.
