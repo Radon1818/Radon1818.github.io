@@ -368,12 +368,21 @@ $("document").ready(function()
 				            			$(this).remove();
 									});
 			    },
+
 			     error: function(jqXHR, textStatus, errorThrown)
 			     {
-			     }         
+			     },
+			     complete: function(jqXHR, textStatus)
+			    {
+			 			$(".UserForm").hide("slow");
+					       		$("#overlay").fadeOut('slow', function() 
+									{
+				            			$(this).remove();
+									});
+			    }       
 			    });
 			    e.preventDefault(); //Prevent Default action.
-			    e.unbind();
+			   // e.unbind();
 			});
 			$("#multiform").submit(); //Submit the form
 			
@@ -411,11 +420,19 @@ $("document").ready(function()
    					});
 			    },
 			     error: function(jqXHR, textStatus, errorThrown)
-			     {
-			     }         
+				     {
+				     },
+			     complete: function(jqXHR, textStatus)
+			    	{
+			 			$(".UserForm").hide("slow");
+					       		$("#overlay").fadeOut('slow', function() 
+									{
+				            			$(this).remove();
+									});
+			    	}         
 			    });
 			    e.preventDefault(); //Prevent Default action.
-			    e.unbind();
+			   // e.unbind();
 			});
 			$("#multiform").submit(); //Submit the form
 
@@ -438,10 +455,3 @@ $("document").ready(function()
 			}); //get JSON
 		
 });
-
-
-
-
-
-
-
