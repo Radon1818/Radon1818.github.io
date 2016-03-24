@@ -1,0 +1,1726 @@
+
+
+#wrapper
+{
+	width:3000px;
+	height:1900px;
+	margin:0px auto;
+	background-color:#c3f1a6;	
+	position:relative;
+}
+
+body
+{
+	overflow:hidden;
+}
+
+section
+{
+	position:absolute;
+}
+
+	/* Navigation*/
+
+nav
+{
+	height:70px;
+	width:100%;
+	background-color:#969495;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 100;
+}
+
+nav a, nav a:visited
+{
+	position: relative;
+	font-size: 15px;
+	width:15%;
+	text-align: center;
+	float: left;
+	display: block;
+	margin-left:6%;
+	margin-top:20px;
+	color:#ffffff;
+	cursor:pointer;
+	font-family: 'Cinzel Decorative', 'Courgette', cursive;
+}
+
+nav a:hover
+{
+	color: #C0C0C0;
+}
+
+#logo
+{
+	height:60px;
+	width:52px;
+	margin-top:5px;
+	background-image: url(../images/gerb2.png);
+}
+
+	/* Navigation End*/
+
+	/* Decor */
+	
+.CrTabl
+{
+	width:99px;
+	height:115px;
+	left:513px;
+	top:415px;
+	background-image: url(../images/CrTabl.png);
+	
+}	
+.ArTabl
+{
+	width:99px;
+	height:115px;
+	left:1781px;
+	top:442px;
+	background-image: url(../images/ArTabl.png);
+}
+.MeTabl
+{
+	width:140px;
+	height:115px;
+	left:2077px;
+	top:1325px;
+	background-image: url(../images/MeTabl.png);
+}
+.FiTabl
+{
+	width:99px;
+	height:115px;
+	left:605px;
+	top:1554px;
+	background-image: url(../images/FiTabl.png);
+}
+	
+
+
+.cloud1
+{
+	width:440px;
+	height:69px;
+	top:157px;
+	left:1910px;
+	background-image: url(../images/cloud1.png);
+}
+
+.cloud2
+{
+	width:971px;
+	height:103px;
+	top:80px;
+	left:617px;
+	background-image: url(../images/cloud2.png);
+}
+
+.cloud3
+{
+	width:234px;
+	height:69px;
+	top:80px;
+	left:50px;
+	background-image: url(../images/cloud3.png);
+}
+.mountains
+{
+	width:3000px;
+	height:440px;
+	background-image: url(../images/mount.png);
+}
+
+.water
+{
+	width:800px;
+	height:501px;
+	top:1000px;
+	left:1200px;
+	background-image: url(../images/water1.png);
+}
+
+.rock
+{
+	width:181px;
+	height:169px;
+	top:320px;
+	left:2289px;
+	background-image: url(../images/rock.png);
+}
+
+	/* Decor End */
+
+
+/*Field*/
+
+.field
+{
+	width:184px;
+	height:131px;
+	top:1120px;
+	left:2005px;
+	background-image: url(../images/field.png);
+}
+
+
+.field2
+{
+	width:309px;
+	height:218px;
+	top:1214px;
+	left:837px;
+	background-image: url(../images/field2.png);
+}
+
+	/*End Field*/
+
+	/*Trees*/
+
+.tree1
+{
+	width:124px;
+	height:114px;
+	background-image: url(../images/tree1.png);
+}
+
+.tree2
+{
+	width:84px;
+	height:88px;
+	background-image: url(../images/tree2.png);
+}
+
+.tree3
+{
+	width:126px;
+	height:145px;
+	background-image: url(../images/tree3.png);
+}
+
+.sec1
+{
+	top:1006px;
+	left:844px;
+}
+
+.sec2
+{
+	top:387px;
+	left:863px;
+}
+
+.sec3
+{
+	top:597px;
+	left:700px;
+}
+
+.sec4
+{
+	top:292px;
+	left:187px;
+}
+
+.sec5
+{
+	top:1400px;
+	left:1400px;
+}
+
+.sec6
+{
+	top:449px;
+	left:134px;
+}
+
+.sec7
+{
+	top:386px;
+	left:1569px;
+}
+
+.sec8
+{
+	top:1292px;
+	left:2467px;
+}
+
+.sec9
+{
+	top:546px;
+	left:2080px;
+}
+
+.sec10
+{
+	top:1031px;
+	left:2749px;
+}
+
+.sec11
+{
+	top:569px;
+	left:1408px;
+}
+
+.sec12
+{
+	top:1195px;
+	left:338px;
+}
+
+.sec13
+{
+	top:1501px;
+	left:455px;
+}
+
+
+	/* End Trees*/
+
+	/* Animals */
+
+.sheep
+{
+	width:30px;
+	height:33px;
+	background-image: url(../images/sheep.png);
+}
+
+.secsheep1
+{
+	top:1413px;
+	left:2093px;
+}
+
+.horse
+{
+	width:89px;
+	height:62px;
+	top:1402px;
+	left:877px;
+	background-image: url(../images/horse1.png);
+}
+
+	/* Animals End*/
+
+	/* Sections */
+
+#home, #storage, #measurements, #finish, #payment
+{
+	height:600px;
+	width:1265px;
+}
+
+#storage
+{
+	top:125px;
+	left:1300px;
+}
+
+#measurements
+{
+	top:975px;
+	left:1650px;
+}
+
+#finish
+{
+	top:1175px;
+	left:300px;
+}
+
+	/* Sections End */
+
+	/* Path */
+
+.path1 , .path2 , .path3 , .path4
+{
+	z-index: 10;
+}
+.path1
+{
+	height:167px;
+	width:1533px;
+	top:456px;
+	left:426px;
+	background-image: url(../images/path1.png);
+}
+
+.path2
+{
+	height:873px;
+	width:808px;
+	top:582px;
+	left:1912px;
+	background-image: url(../images/path2.png);
+}
+
+.path3
+{
+	height:348px;
+	width:1426px;
+	top:1419px;
+	left:869px;
+	background-image: url(../images/path3.png);
+}
+
+.path4
+{
+	height:1198px;
+	width:619px;
+	top:531px;
+	left:294px;
+	background-image: url(../images/path4.png);
+}
+
+	/* Path End */
+
+	/* Buildings */
+
+.house1 ,.house2 ,.house3 ,.house4
+{
+	z-index: 20;
+	position:absolute;
+}
+
+.house1
+{
+	height:186px;
+	width:207px;
+	top:366px;
+	left:288px;
+	background-image: url(../images/hhouse1.png);
+}
+
+.house1:hover
+{
+	background-position: 0 -186px;
+}
+
+.house2
+{
+	height:166px;
+	width:191px;
+	top:329px;
+	left:583px;
+	background-image: url(../images/hhouse2.png);
+}
+
+.house2:hover
+{
+	background-position: 0 -166px;
+}
+
+.house3
+{
+	height:192px;
+	width:161px;
+	top:303px;
+	left:597px;
+	background-image: url(../images/hhouse3.png);
+}
+
+.house3:hover
+{
+	background-position: 0 -192px;
+}
+
+.house4
+{
+	height:228px;
+	width:151px;
+	top:254px;
+	left:444px;
+	background-image: url(../images/hhouse4.png);
+}
+
+.house4:hover
+{
+	background-position: 0 -228px;
+}
+
+	/* Buildings End */
+	
+	
+	
+	/* Arrow Animation */
+	
+.harr ,.sarr ,.marr ,.farr
+{
+	width:27px;
+	height:21px;
+	background-image: url(../images/arrow1.png);
+	z-index: 100;
+}
+
+.harr
+{
+	left:390px;
+	-moz-animation: UpDownH 500ms linear  infinite;
+	-webkit-animation: UpDownH 500ms linear  infinite;
+}
+
+@-webkit-keyframes UpDownH
+{
+	0%    {top: 340px}
+	50%  {top: 345px}
+	100%  {top: 340px}
+}
+
+@-moz-keyframes UpDownH
+{
+	0%    {top: 340px}
+	50%  {top: 345px}
+	100%  {top: 340px}
+}
+
+.sarr
+{
+	left:640px;
+	-moz-animation: UpDownS 500ms linear  infinite;
+	-webkit-animation: UpDownS 500ms linear  infinite;
+}
+
+@-webkit-keyframes UpDownS
+{
+	0%    {top: 325px}
+	50%  {top: 330px}
+	100%  {top: 325px}
+}
+
+@-moz-keyframes UpDownS
+{
+	0%    {top: 325px}
+	50%  {top: 330px}
+	100%  {top: 325px}
+}
+
+.marr
+{
+	left:640px;
+	-moz-animation: UpDownM 500ms linear  infinite;
+	-webkit-animation: UpDownM 500ms linear  infinite;
+}
+
+@-webkit-keyframes UpDownM
+{
+	0%    {top: 300px}
+	50%  {top: 305px}
+	100%  {top: 300px}
+}
+
+@-moz-keyframes UpDownM
+{
+	0%    {top: 300px}
+	50%  {top: 305px}
+	100%  {top: 300px}
+}
+
+.farr
+{
+	left:501px;
+	-moz-animation: UpDownF 500ms linear  infinite;
+	-webkit-animation: UpDownF 500ms linear  infinite;
+}
+
+@-webkit-keyframes UpDownF
+{
+	0%    {top: 225px}
+	50%  {top: 230px}
+	100%  {top: 225px}
+}
+
+@-moz-keyframes UpDownF
+{
+	0%    {top: 225px}
+	50%  {top: 230px}
+	100%  {top: 225px}
+}
+
+	/* Arrow Animation End */
+	
+main
+{
+	height:100%;
+	width:100%;
+	margin: 0 auto;
+	position: fixed;
+	
+	
+}
+
+main section
+{
+	position: absolute;
+}
+
+.esc
+{
+	width:24px;
+	height:25px;
+	background-image: url(../images/esc.png);
+	left:271px;
+	top:8px;
+}
+
+.SubmitButton
+{
+	margin:-3px 90px 0 0 !important;
+	width:105px !important;
+	height:52px;
+}
+	
+.UserForm
+{
+	position: absolute;
+	width:293px;
+	height:389px;
+	font-size:20px;
+	text-align:center;
+	background-image: url(../images/userform.png);
+	font-family: 'Courgette', cursive;
+	z-index: 1000;
+	margin: -194px 0 0 -146px;
+	
+	display:none;
+	
+	
+	
+	
+}
+
+.forma
+{
+	margin-top:50px;
+}
+
+
+
+.UserForm p
+{
+	padding-left: 15px;
+	float:left;
+}
+
+.UserForm input
+{
+	width:140px;
+	font-size:20px;
+	margin-right:15px;
+	float:right;
+}
+
+
+/*-------*/
+.StorageCreate1
+{
+	width:390px;
+	height:210px;
+	background-image: url(../images/Storage1.png);
+	font-family: 'Courgette', cursive;
+	font-size:18px;
+	z-index: 1000;
+	text-align:center;
+	margin: -105px 0 0 -195px;
+	left:50%;
+	top:50%;
+	display:none;
+
+	
+}
+
+.StorageCreate1 p 
+{
+	margin-top:15px;
+}
+
+.cr1
+{
+	margin-top:5px !important;
+	font-size:24px;
+}
+
+.CreateButton
+{
+	width:246px;
+	height:50px;
+	background-image: url(../images/Storage1Button.png);
+	cursor:pointer;
+	top:45px;
+	left:72px;
+}
+
+.SelectButton
+{
+	width:246px;
+	height:50px;
+	background-image: url(../images/Storage1Button.png);
+	cursor:pointer;
+	top:125px;
+	left:72px;
+}
+
+
+/*-------*/
+.StorageCreate2
+{
+	width:777px;
+	height:522px;
+	background-image: url(../images/Storage2.png);
+	font-family: 'Courgette', cursive;
+	font-size:18px;
+	z-index: 1000;
+	text-align:center;
+	margin: -261px 0 0 -388px;
+	left:50%;
+	top:50%;
+	display:none;
+
+}
+
+.BigSlide
+{
+	width:380px;
+	height:380px;
+	top:4px;
+	overflow: hidden;
+}
+
+.BigSlideFraime
+{
+	width:380px;
+	height:388px;
+	top:72px;
+	left:30px;
+	background-image: url(../images/StorageCreateVertSlide.png);
+	
+}
+
+.star
+{
+	width:30px;
+	height:31px;
+	top:8px;
+	cursor:pointer;
+	background-image: url(../images/Star.png);
+}
+
+.UpButtonCreate
+{
+	width:69px;
+	height:33px;
+	top:39px;
+	left:185px;
+	background-image: url(../images/Up.png);
+	cursor: pointer;
+}
+
+.DownButtonCreate
+{
+	width:69px;
+	height:33px;
+	top:460px;
+	left:185px;
+	background-image: url(../images/Down.png);
+	cursor: pointer;
+}
+
+.PriceCreate
+{
+	width:105px;
+	height:52px;
+	top:441px;
+	left:424px;
+	background-image: url(../images/SubmitPrice.png);
+}
+
+.SubmitCreate
+{
+	width:105px;
+	height:52px;
+	top:441px;
+	left:653px;
+	cursor:pointer;
+	font-family: 'Courgette', cursive;
+	background-image: url(../images/SubmitPrice.png);
+}
+.SubmitCreate p
+{
+	margin-top:15px;
+	font-size:18px;
+}
+
+.ExternalHelmet
+{
+	width:84px;
+	height:105px;
+	top:39px;
+	left:549px;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.ExternalScapularL
+{
+	width:84px;
+	height:105px;
+	top:90px;
+	left:454px;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.ExternalScapularR
+{
+	width:84px;
+	height:105px;
+	top:90px;
+	left:644px;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.ExternalBreastplate
+{
+	width:84px;
+	height:105px;
+	top:155px;
+	left:549px;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.ExternalGloveL
+{
+	width:84px;
+	height:105px;
+	top:217px;
+	left:435px;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.ExternalGloveR
+{
+	width:84px;
+	height:105px;
+	top:217px;
+	left:663px;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.ExternalPants
+{
+	width:84px;
+	height:105px;
+	top:271px;
+	left:549px;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.ExternalBoots
+{
+	width:84px;
+	height:105px;
+	top:387px;
+	left:549px;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.InternalHelmet , .InternalScapularL , .InternalScapularR , .InternalBreastplate , .InternalGloveL , .InternalGloveR , .InternalPants , .InternalBoots
+{
+	width:84px;
+	height:105px;
+}
+
+.Helmets ,.Boots ,.Breastplates ,.Scapulars ,.Gloves ,.Pants
+{
+	width:268px;
+	height:105px;
+	top:13px;
+	left:53px;
+	margin: 12px 0;
+	float: left;
+	overflow: hidden;
+	position:relative;
+}
+
+.LeftH
+{
+	width:24px;
+	height:50px;
+	top:53px;
+	left:29px;
+	cursor:pointer;
+	background-image: url(../images/LeftButton.png);
+}
+
+.RightH
+{
+	width:24px;
+	height:50px;
+	top:53px;
+	left:321px;
+	cursor:pointer;
+	background-image: url(../images/RightButton.png);
+}
+
+.LeftBre
+{
+	width:24px;
+	height:50px;
+	top:183px;
+	left:29px;
+	cursor:pointer;
+	background-image: url(../images/LeftButton.png);
+}
+
+.RightBre
+{
+	width:24px;
+	height:50px;
+	top:183px;
+	left:321px;
+	cursor:pointer;
+	background-image: url(../images/RightButton.png);
+}
+
+.LeftSca
+{
+	width:24px;
+	height:50px;
+	top:313px;
+	left:29px;
+	cursor:pointer;
+	background-image: url(../images/LeftButton.png);
+}
+
+.RightSca
+{
+	width:24px;
+	height:50px;
+	top:313px;
+	left:321px;
+	cursor:pointer;
+	background-image: url(../images/RightButton.png);
+}
+
+.LeftGlove
+{
+	width:24px;
+	height:50px;
+	top:443px;
+	left:29px;
+	cursor:pointer;
+	background-image: url(../images/LeftButton.png);
+}
+
+.RightGlove
+{
+	width:24px;
+	height:50px;
+	top:443px;
+	left:321px;
+	cursor:pointer;
+	background-image: url(../images/RightButton.png);
+}
+
+.LeftPants
+{
+	width:24px;
+	height:50px;
+	top:573px;
+	left:29px;
+	cursor:pointer;
+	background-image: url(../images/LeftButton.png);
+}
+
+.RightPants
+{
+	width:24px;
+	height:50px;
+	top:573px;
+	left:321px;
+	cursor:pointer;
+	background-image: url(../images/RightButton.png);
+}
+
+.LeftBoots
+{
+	width:24px;
+	height:50px;
+	top:703px;
+	left:29px;
+	cursor:pointer;
+	background-image: url(../images/LeftButton.png);
+}
+
+.RightBoots
+{
+	width:24px;
+	height:50px;
+	top:703px;
+	left:321px;
+	cursor:pointer;
+	background-image: url(../images/RightButton.png);
+}
+
+.Frames1 ,.Frames2 ,.Frames3 ,.Frames4 ,.Frames5 ,.Frames6
+{
+	width:700px;
+	height:105px;
+	
+}
+.Frame
+{
+	width:84px;
+	height:105px;
+	margin-right:8px;
+	float:left;
+	position:relative;
+}
+
+.Frame:hover
+{
+	border: 2px solid #9d9e76;
+}
+
+.cr2
+{
+	margin-top:5px;
+	font-size:24px;
+}
+
+.CrPrice
+{
+	font-size:18px;
+	top:420px;
+	left:430px;
+	width:60px;
+	height:25px;
+}
+
+/*-------*/
+
+
+.StorageTemp
+{
+	width:777px;
+	height:522px;
+	background-image: url(../images/StorageTemplate.png);
+	font-family: 'Courgette', cursive;
+	font-size:18px;
+	z-index: 1000;
+	text-align:center;
+	margin: -261px 0 0 -388px;
+	left:50%;
+	top:50%;
+	display:none;
+	
+}
+
+.TempSlideFrame
+{
+	width:679px;
+	height:399px;
+	top:44px;
+	left:50px;
+	background-image: url(../images/TempSlide.png);
+	
+}
+
+.TempSlide
+{
+	width:671px;
+	height:399px;
+	margin-left:4px;
+	overflow: hidden;
+}
+
+.TempSlideIn
+{
+	width:800px;
+	height:399px;
+	float: left;
+	clear:both;
+	position:relative;
+}
+
+.Temp1 ,.Temp2 ,.Temp3
+{
+	width:203px;
+	height:303px;
+	margin:47px 0 0 15px;
+	float:left;
+	position:relative;
+}
+
+.Temp1:hover ,.Temp2:hover ,.Temp3:hover
+{
+	border: 2px solid #9d9e76;
+}
+.Temp1
+{
+	background-image: url(../images/temp1.png);
+}
+
+.Temp2
+{
+	background-image: url(../images/temp2.png);
+}
+
+.Temp3
+{
+	background-image: url(../images/temp3.png);
+}
+
+.TempLeft
+{
+	width:33px;
+	height:69px;
+	top:208px;
+	left:19px;
+	cursor:pointer;
+	background-image: url(../images/TempLeft.png);
+}
+
+.TempRight
+{
+	width:33px;
+	height:69px;
+	top:208px;
+	left:727px;
+	cursor:pointer;
+	background-image: url(../images/TempRight.png);
+}
+
+.TempPrice
+{
+	width:75px;
+	top:465px;
+	left:159px;
+	font-size:22px;
+	position:absolute;
+}
+
+.Sort
+{
+	width:95px;
+	top:15px;
+	left:79px;
+	font-size:22px;
+	position:absolute;
+}
+
+.money , .like , .color
+{
+	width:25px;
+	height:25px;
+	top:17px;
+}
+.money
+{
+	left:173px;
+	cursor:pointer;
+	background-image: url(../images/money.png);
+}
+.like
+{
+	left:208px;
+	cursor:pointer;
+	background-image: url(../images/like.png);
+}
+.color
+{
+	left:243px;
+	cursor:pointer;
+	background-image: url(../images/colorsort.png);
+}
+
+.tmp2
+{
+	font-size:22px;
+	text-align:center;
+	margin-top:5px;
+}
+
+.PriceTemp
+{
+	width:105px;
+	height:52px;
+	top:454px;
+	left:231px;
+	background-image: url(../images/SubmitPrice.png);
+}
+
+.SubmitTemp
+{
+	width:105px;
+	height:52px;
+	top:454px;
+	left:441px;
+	cursor:pointer;
+	font-family: 'Courgette', cursive;
+	background-image: url(../images/SubmitPrice.png);
+}
+
+.SubmitTemp p
+{
+	margin-top:15px;
+	font-size:18px;
+}
+
+/*-------*/
+
+.MeaSizes
+{
+	width:293px;
+	height:389px;
+	font-size:24px;
+	text-align:center;
+	background-image: url(../images/userform.png);
+	font-family: 'Courgette', cursive;
+	z-index: 1000;
+	margin: -194px 0 0 -146px;
+	left:50%;
+	top:50%;
+	display:none;
+}
+
+.MeaSizes p
+{
+	margin:5px;
+}
+
+
+.SButton p , .MButton p , .LButton p , .XLButton p
+{
+	margin-top:20px;
+	font-size:55px;
+}
+
+.SButton:hover , .MButton:hover , .LButton:hover , .XLButton:hover
+{
+	border: 2px solid #9d9e76;
+}
+
+.SButton
+{
+	width:84px;
+	height:105px;
+	top:44px;
+	left:35px;
+	cursor:pointer;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.MButton
+{
+	width:84px;
+	height:105px;
+	top:44px;
+	left:174px;
+	cursor:pointer;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.LButton
+{
+	width:84px;
+	height:105px;
+	top:204px;
+	left:35px;
+	cursor:pointer;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.XLButton
+{
+	width:84px;
+	height:105px;
+	top:204px;
+	left:174px;
+	cursor:pointer;
+	background-image: url(../images/SmallFrame.png);
+}
+
+.SubmitMea
+{
+	width:105px;
+	height:52px;
+	top:321px;
+	left:94px;
+	cursor:pointer;
+	font-family: 'Courgette', cursive;
+	background-image: url(../images/SubmitPrice.png);
+}
+
+.SubmitMea p
+{
+	margin-top:15px;
+	font-size:18px;
+}
+
+/*-------*/
+
+.CartName ,.CartIm ,.CartQ  ,.CartP 
+{
+	font-size:20px !important;
+	text-align:center;
+	float:left;
+	
+}
+.CartName
+{
+	margin-left:52px;
+}
+.CartIm
+{
+	margin-left:176px;
+}
+.CartQ
+{
+	margin-left:86px;
+}
+.CartP
+{
+	margin-left:68px;
+}
+.YourCart
+{
+	font-size:35px;
+	margin-top:-20px;
+	margin-left:-370px;
+}
+.sh1
+{
+	margin-top:5px;
+}
+
+.ShopCart
+{
+	width:777px;
+	height:522px;
+	background-image: url(../images/StorageTemplate.png);
+	font-family: 'Courgette', cursive;
+	font-size:24px;
+	z-index: 1000;
+	text-align:center;
+	margin: -261px 0 0 -388px;
+	left:50%;
+	top:50%;
+	display:none;
+}
+
+.TotP
+{
+	font-size:22px;
+	top:410px;
+	left:52px;
+}
+
+.ShopSum
+{
+	width:80px;
+	height:30px;
+	border: 1px solid black;
+	top:410px;
+	left:510px;
+}
+
+.ShopFrame
+{
+	width:713px;
+	height:322px;
+	left:32px;
+	top:88px;
+	background-image: url(../images/ShopBigFrame.png);
+	
+}
+
+.ShopFrameIn
+{
+	width:713px;
+	height:314px;
+	margin-top:4px;
+	overflow: hidden;
+}
+.ShopSubmit
+{
+	width:106px;
+	height:52px;
+	top:438px;
+	left:336px;
+	cursor:pointer;
+	background-image: url(../images/SubmitPrice.png);
+}
+
+.ShopSubmit p
+{
+	margin-top:15px;
+	font-size:18px;
+}
+
+.UpButtonShop
+{
+	width:69px;
+	height:33px;
+	top:55px;
+	left:638px;
+	cursor:pointer;
+	background-image: url(../images/Up.png);
+}
+
+.DownButtonShop
+{
+	width:69px;
+	height:33px;
+	top:410px;
+	left:638px;
+	cursor:pointer;
+	background-image: url(../images/Down.png);
+}
+
+.Buyitems
+{
+	width:713px;
+	min-height:322px;
+	top:0px;
+}
+
+.Buyitems ul
+{
+	list-style:none;
+	width:713px;
+	
+}
+
+.Buyitems ul li
+{
+	width:100%;
+	height:115px;
+	
+}
+
+.Buyitems li p
+{
+	float:left;
+	margin: 54px 0 0 20px;
+	text-align: left;
+	font-size: 20px;
+	width:223px;
+}
+
+.Buyitems li select
+{
+	float:left;
+	margin:53px 44px 0 59px;
+	text-align: left;
+	font-size: 24px;
+	width:50px;
+}
+
+.BuyitemsPrice
+{
+	width: 87px !important;
+	margin: 54px 20px 0 0 !important;
+	
+}
+
+.BuyitemsDel 
+{
+	cursor:pointer;
+	margin: 44px 0 0 0 !important;
+	width:105px !important;
+	height:52px !important;
+}
+
+.Buyitems li img
+{
+	margin: 8px 0 0 0;
+	width:84px;
+	height:105px;
+	float:left;
+}
+
+.ShipPayButton
+{
+	margin:29px 0 0 208px;	
+}
+
+.BackButton
+{
+	width:85px;
+	height:42px;
+	top:266px;
+	left:16px;
+	cursor:pointer;
+	background-image: url(../images/back.png);
+}
+
+.ShippingForm
+{
+	width:520px;
+	height:320px;
+	font-size:22px;
+	text-align:left;
+	background-image: url(../images/Shipping.png);
+	font-family: 'Courgette', cursive;
+	z-index: 1000;
+	margin: -160px 0 0 -260px;
+	left:50%;
+	top:50%;
+	display:none;
+}
+
+.ShippingForm p
+{
+	
+	float:left;
+	margin:6px 0 0 55px;
+	top:100px;
+}
+
+.ShippP
+{
+	width:149px;
+}
+
+.sh2
+{
+	text-align:center;
+	left:185px;
+	font-size:24px;
+}
+.ShippDet
+{
+	width:349px;
+	font-size:28px;
+	margin-top:30px;
+	
+}
+
+
+.FAP
+{
+	width:258px;
+	float:left;
+	margin:15px 55px 0 0 ;
+	font-size: 15px;
+}
+
+
+
+.cityin
+{
+	width:131px;
+	float:left;
+	font-size: 15px;
+	margin:15px 0 0 0 ;
+}
+
+.zipp
+{
+	width:55px;
+	margin:10px 0 0 0 !important;
+	text-align:center;
+}
+
+.zippin
+{
+	width:71px;
+	float:left;
+	font-size: 15px;
+	margin:15px 0 0 0 ;
+}
+
+.formm
+{
+	margin-top: 70px;
+	width:520px;
+	height:122px;
+	
+}
+
+.ThankYou
+{
+	width:679px;
+	height:399px;
+	background-image: url(../images/TempSlide.png);
+	font-family: 'Courgette', cursive;
+	font-size:85px;
+	z-index: 1000;
+	text-align:center;
+	margin: -200px 0 0 -340px;
+	left:50%;
+	top:50%;
+	display:none;
+}
+
+.Thanks
+{
+	margin-top:80px;
+}
+
+.Purchase
+{
+	font-size:60px;
+	margin-top:40px;
+}
+
+.logo2
+{
+	height:60px;
+	width:52px;
+	margin:35px;
+	background-image: url(../images/gerb2.png);
+}
+
+/*-------*/
+
+
+#overlay 
+{
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index: 999;
+	background:black no-repeat scroll center center;
+}
+
+.hel1
+{
+	background-image: url(../images/hel1.png);
+}
+
+.hel2
+{
+	background-image: url(../images/hel2.png);
+}
+
+.hel3
+{
+	background-image: url(../images/hel3.png);
+}
+
+.hel4
+{
+	background-image: url(../images/hel4.png);
+}
+
+.hel5
+{
+	background-image: url(../images/hel5.png);
+}
+
+.hel6
+{
+	background-image: url(../images/hel6.png);
+}
+
+.hel7
+{
+	background-image: url(../images/hel7.png);
+}
+
+.bre1
+{
+	background-image: url(../images/bre1.png);
+}
+
+.bre2
+{
+	background-image: url(../images/bre2.png);
+}
+
+.bre3
+{
+	background-image: url(../images/bre3.png);
+}
+
+.bre4
+{
+	background-image: url(../images/bre4.png);
+}
+
+.sca1
+{
+	background-image: url(../images/sca1.png);
+}
+
+.sca2
+{
+	background-image: url(../images/sca2.png);
+}
+
+.sca3
+{
+	background-image: url(../images/sca3.png);
+}
+
+.sca4
+{
+	background-image: url(../images/sca4.png);
+}
+
+.glove1
+{
+	background-image: url(../images/glove1.png);
+}
+
+.glove2
+{
+	background-image: url(../images/glove2.png);
+}
+
+.glove3
+{
+	background-image: url(../images/glove3.png);
+}
+
+.glove4
+{
+	background-image: url(../images/glove4.png);
+}
+
+.pant1
+{
+	background-image: url(../images/pant1.png);
+}
+
+.pant2
+{
+	background-image: url(../images/pant2.png);
+}
+
+.pant3
+{
+	background-image: url(../images/pant3.png);
+}
+
+.pant4
+{
+	background-image: url(../images/pant4.png);
+}
+
+.boot1
+{
+	background-image: url(../images/boot1.png);
+}
+
+.boot2
+{
+	background-image: url(../images/boot2.png);
+}
+
+.boot3
+{
+	background-image: url(../images/boot3.png);
+}
+
+.boot4
+{
+	background-image: url(../images/boot4.png);
+}
+
+

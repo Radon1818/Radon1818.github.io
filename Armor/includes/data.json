@@ -1,0 +1,32 @@
+[
+	{
+		"name":"Helmet",
+		"imgname":"hel1",
+		"qty":"1",
+		"price":"1500$",
+		"delbut":"delbut"
+	},
+	{
+		"name":"Placart",
+		"imgname":"bre1",
+		"qty":"1",
+		"price":"2500$",
+		"delbut":"delbut"
+	},
+	{
+		"name":"Pants",
+		"imgname":"pant2",
+		"qty":"1",
+		"price":"1800$",
+		"delbut":"delbut"
+		
+	},
+	{
+		"name":"Boots",
+		"imgname":"boot1",
+		"qty":"1",
+		"price":"2000$",
+		"delbut":"delbut"
+	}
+
+]

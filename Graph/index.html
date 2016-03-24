@@ -1,0 +1,157 @@
+<!--///////////////////////////////////
+	//Student:
+	// Sergey Radimashvili ID:317841526    
+	///////////////////////////////////-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset= "UTF-8">
+		<title>Single Line</title>
+		<script src="jquery-2.1.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<section class="Help"></section>
+
+		<header>
+				<nav>
+		
+				</nav>
+			</header>
+
+		<canvas id="jopa" width="1200" height="1200">
+			
+
+
+		</canvas>
+
+			<section class="DrawSec">
+				<button class="LonelyPixel">Draw Pixel</button>
+				<button class="LineButton" >Line</button>
+				<button class="CircleButton" >Circle</button>
+				<button class="PoliButton" >Poli</button>
+				<section class="PolyValSec">
+					<form action="#" class="PolyVal">
+						<p style="margin :0;"><input class="Pol" type="number" name="Poly" value="3" min="3" max="20" required></p>
+						<p style="margin :0;"><input class="sub1" type="button" value="PolyNum"></p>
+					</form>
+				</section>
+				<button class="CurveButton" >Curve</button>
+				<section class="CurveSec">
+					<form action="#" class="Curve">
+						<p style="margin :0;"><input class="Crv" type="text" name="Curv" value="0.01"></p>
+						<p style="margin :0;"><input class="sub2" type="button" value="Curve T Val"></p>
+					</form>
+				</section>
+				<button class="clear">Clear</button>
+			</section>
+			<section class="ColorsSec">
+				<button class="Blue">Blue</button>
+				<button class="Black">Black</button>
+				<button class="White">White</button>
+				<button class="Red">Red</button>
+				<button class="Yellow">Yellow</button>
+				<button class="Orange">Orange</button>
+			</section>
+				<button class="Sec2d">2D</button>
+				<button class="Sec3d">3D</button>
+				<section class="TransfomSec">
+					<button class="JsonButton">Get Picture from Json</button>
+					<button class="Normalize">Normalize</button>
+					<button class="MovePicture">Move To</button>
+					<button class="ZoomPicture">Zoom</button>
+						<section class="ZoomPictureButton">
+							<button class="ZoomInButton">ZoomIn</button>
+							<button class="ZoomOutButton">ZoomOut</button>
+						</section>
+					<button class="RotatePicture">Rotate</button>
+					<section class="RotateValSec">
+						<form action="#" class="RotateForm">
+							<p style="margin :0;"><input class="RotateVal" type="number" name="Rotate" value="0" min="-360" max="360" required></p>
+							<p style="margin :0;"><input class="SubRotateVal" type="button" value="Set Value"></p>
+						</form>
+					</section>
+					<button class="ShearinghPicture">Shearing</button>
+						<section class="ShearingButtonsSec">
+								<button class="ShearingByX">Horizontal Shearing</button>
+									<section class="ShearingButtonsSecX">
+										<button class="S1">PageTop</button>
+										<button class="S2">BoatTop</button>
+										<button class="S3">BoatBottom</button>
+										<button class="S4">PageBottom</button>
+									</section>
+								<button class="ShearingByY">Vertical Shearing</button>
+									<section class="ShearingButtonsSecY">
+										<button class="S1">Page Left Side</button>
+										<button class="S2">Boat Left Side</button>
+										<button class="S3">Boat Right Side</button>
+										<button class="S4">Page Right Side</button>
+									</section>
+							
+						</section>
+					
+					<button class="MirrorButton">Mirror</button>
+						<section class="MirrorSec">
+							<button class="MirLR">Vertical reflection</button>
+							<button class="MirUD">Horizontal reflection</button>
+						</section>
+					
+				</section>
+
+			<section class="Transform3DSec">
+
+				<button class="Json3D">Get Objects from Json</button>
+				<button class="Projection">Projections</button>
+					<section class="ProjectionSec">
+						<p style="margin :0;"><input class="Projection3DVal" type="number" name="Projection" value="45" min="0" max="360" required></p>
+						<p style="margin :0;"><input class="SubProjection3DVal" type="button" value="Set Value"></p>
+						<button class="caval">Cavalier</button>
+						<button class="cabinet">Cabinet</button>
+						<button class="perspective">Perspective</button>
+						<button class="parallel">Parallel</button>
+					</section>
+				<button class="Transform3D">Transform</button>
+					<section class="Trans">
+						<button class="Rotation3D">Rotation3D</button>
+							<section class="Rotation3DSec">
+								<form action="#" class="RotateForm">
+									<p style="margin :0;"><input class="Rotate3DVal" type="number" name="Rotate" value="5" min="-360" max="360" required></p>
+									<p style="margin :0;"><input class="SubRotate3DVal" type="button" value="Set Value"></p>
+								</form>
+								<button class="Rotate3DX">RotX</button>
+								<button class="Rotate3DY">RotY</button>
+								<button class="Rotate3DZ">RotZ</button>
+							</section>
+						
+						<button class="Resize3D">Resize</button>
+							<section class="Resize3DSec">
+								<button class="Zoom3DIn">ZoomIn</button>
+								<button class="Zoom3DOut">ZoomOut</button>
+							</section>
+
+						<button class="Move3D">Move3D</button>
+							<section class="Move3dSec">
+								<form action="#" class="Move3DForm">
+									<p style="margin :0;"><input class="Move3DXVal" type="number" name="MoveX" value="0"></p>
+									<p style="margin :0;"><input class="Move3DYVal" type="number" name="MoveY" value="0"></p>
+									<p style="margin :0;"><input class="Move3DZVal" type="number" name="MoveZ" value="0"></p>
+									<p style="margin :0;"><input class="SubMove3DVal" type="button" value="Set Value"></p>
+								</form>
+							</section>
+						<button class="Opacity">Opacity</button>
+							<section class="Opacity3DSec">
+								<form action="#" class="OpacityeForm">
+									<p style="margin :0;"><input class="Opacity3DVal" type="text" name="Opacity" value="1"></p>
+									<p style="margin :0;"><input class="SubOpacity3DVal" type="button" value="Set Value"></p>
+								</form>
+							</section>
+					</section>
+				<button class="HelpButton">Help</button>
+			</section>
+		
+		
+	</body>
+</html>
+

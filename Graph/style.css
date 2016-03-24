@@ -1,0 +1,680 @@
+///////////////////////////////////
+//Student:
+// Sergey Radimashvili ID:317841526
+///////////////////////////////////
+
+
+
+.body
+{
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+
+#jopa
+{
+	position: absolute;
+	
+	
+	margin: 0 auto;
+	left:120px;	
+}
+
+.pixel
+{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	background-color: black;
+	left: 100px;
+	top: 100px;
+}
+
+.DrawSec
+{
+	position: relative;
+	width: 100px;
+	border: 2px solid black;
+	z-index: 100;
+	margin-bottom: 10px;
+}
+
+.ColorsSec
+{
+	position: relative;
+	width: 100px;
+	border: 2px solid black;
+	z-index: 100;
+	margin-bottom: 10px;
+}
+
+.Sec2d
+{
+	position: relative;
+	width: 50px;
+	z-index: 100;
+}
+.Sec3d
+{
+	position: relative;
+	width: 50px;
+	z-index: 100;
+}
+
+.TransfomSec
+{
+	position: relative;
+	display: none;
+	width: 100px;
+	border: 2px solid black;
+	z-index: 100;
+	margin-bottom: 10px;
+}
+
+.Resize3DSec
+{
+	position: relative;
+	display: none;
+	width: 100px;
+	border: 2px solid black;
+	z-index: 100;
+}
+
+.Rotation3DSec
+{
+	position: relative;
+	display: none;
+	width: 100px;
+	border: 2px solid black;
+	z-index: 100;
+}
+
+.Transform3DSec
+{
+	position: relative;
+	display: none;
+	width: 100px;
+	border: 2px solid black;
+	z-index: 100;
+	margin-bottom: 10px;
+}
+
+.Rotation3D
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Transform3D
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Zoom3DIn
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Zoom3DOut
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Json3D
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.caval
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.cabinet
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.perspective
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.parallel
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Move3D
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Move3dSec
+{
+	position: relative;
+	display: none;
+	width: 100px;
+	border: 2px solid black;
+	z-index: 100;
+	margin-bottom: 1px;
+}
+
+.Move3DXVal
+{
+	position: relative;
+	width:95%;
+}
+
+.Move3DYVal
+{
+	position: relative;
+	width:95%;
+}
+
+.Move3DZVal
+{
+	position: relative;
+	width:95%;
+}
+
+.SubMove3DVal
+{
+	position: relative;
+	width:100%;
+}
+
+.Rotate3DX
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Rotate3DY
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Rotate3DZ
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Resize3D
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.MirrorSec
+{
+	display: none;
+	position: relative;
+	height: 100%;
+	width: 100px;
+	z-index: 100;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid black;
+}
+
+.ProjectionSec
+{
+	display: none;
+	position: relative;
+	height: 100%;
+	width: 100px;
+	z-index: 100;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid black;
+}
+
+.Projection
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Trans
+{
+	display: none;
+	position: relative;
+	height: 100%;
+	width: 100px;
+	z-index: 100;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid black;
+}
+
+.PolyVal
+{
+	display: block;
+}
+.Curve
+{
+	display: block;
+}
+
+.Blue
+{
+	background-color: blue;
+	width: 47px;
+	padding: 0;
+}
+
+.Black
+{
+	background-color: black;
+	color: white;
+	width: 47px;
+	padding: 0;
+}
+
+.White
+{
+	background-color: white;
+	width: 47px;
+	padding: 0;
+}
+.Red
+{
+	background-color: red;
+	width: 47px;
+	padding: 0;
+}
+.Yellow
+{
+	background-color: yellow;
+	width: 47px;
+	padding: 0;
+}
+
+
+.Orange
+{
+	background-color: orange;
+	width: 47px;
+	padding: 0;
+}
+
+.Pol
+{
+	position: relative;
+	width:95%;
+}
+
+.sub1
+{
+	position: relative;
+	width:100%;
+}
+
+.RotateVal
+{
+	position: relative;
+	width:95%;
+}
+
+.SubRotateVal
+{
+	position: relative;
+	width:100%;
+}
+
+.Rotate3DVal
+{
+	position: relative;
+	width:95%;
+}
+
+.SubRotate3DVal
+{
+	position: relative;
+	width:100%;
+}
+
+.Projection3DVal
+{
+	position: relative;
+	width:95%;
+}
+
+.SubProjection3DVal
+{
+	position: relative;
+	width:100%;
+}
+
+.Opacity3DSec
+{
+	position: relative;
+	display: none;
+	width: 100px;
+	border: 2px solid black;
+	z-index: 100;
+}
+
+.Opacity
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Opacity3DVal
+{
+	position: relative;
+	width:95%;
+}
+
+.SubOpacity3DVal
+{
+	position: relative;
+	width:100%;
+}
+
+input:required:invalid {
+	border:3px solid red;
+}
+
+.Crv
+{
+	position: relative;
+	width:95%;
+}
+
+.sub2
+{
+	position: relative;
+	width:100%;
+}
+
+.LonelyPixel
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.LineButton
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.CircleButton
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.PoliButton
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.PolyValSec
+{
+	display: none;
+	position: relative;
+	height: 100%;
+	width: 100px;
+	z-index: 100;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid black;
+}
+
+.RotateValSec
+{
+	display: none;
+	position: relative;
+	height: 100%;
+	width: 100px;
+	z-index: 100;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid black;
+}
+
+.CurveSec
+{
+	display: none;
+	position: relative;
+	height: 100%;
+	width: 100px;
+	z-index: 100;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid black;
+}
+
+.ShearingButtonsSec
+{
+	display: none;
+	position: relative;
+	height: 100%;
+	width: 100px;
+	z-index: 100;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid black;
+}
+
+.ShearingButtonsSecY
+{
+	display: none;
+	position: relative;
+	height: 100%;
+	width: 100px;
+	z-index: 100;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid black;
+}
+
+.ShearingButtonsSecX
+{
+	display: none;
+	position: relative;
+	height: 100%;
+	width: 100px;
+	z-index: 100;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid black;
+}
+
+.ZoomPictureButton
+{
+	display: none;
+	position: relative;
+	height: 100%;
+	width: 100px;
+	z-index: 100;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid black;
+}
+
+.CurveButton
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.clear
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.JsonButton
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.MovePicture
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.ShearingByX
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.ShearingByY
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.ZoomPicture
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.RotatePicture
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.ShearinghPicture
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.MirrorButton
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+.ZoomInButton
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+.ZoomOutButton
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Normalize
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.S1
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.S2
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.S3
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.S4
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.HelpButton
+{
+	position: relative;
+	width: 100px;
+	z-index: 100;
+}
+
+.Help
+{
+	position: absolute;
+	width:622px;
+	height:729px;
+	text-align:center;
+	background-image: url(Help.png);
+	z-index: 1000;
+	margin: -311px 0 0 -364px;
+	left:50%;
+	top:50%;
+	display:none;	
+}
+
+#overlay 
+{
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index: 999;
+	background:black no-repeat scroll center center;
+}
