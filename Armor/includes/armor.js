@@ -218,6 +218,14 @@ $("document").ready(function()
 		       		.css("top", $(window).height()/2+$(window).scrollTop() + "px")
 					.css("left", $(window).width()/2+$(window).scrollLeft() + "px")
 					.show("slow");
+						$("#overlay").click(function() 
+						{
+						$(".ShippingForm").hide("slow");
+			       		$("#overlay").fadeOut('slow', function() 
+							{
+		            			$(this).remove();
+							});
+	   					});
    					});	
    				$(".BackButton").click(function() 
 					{
@@ -226,6 +234,15 @@ $("document").ready(function()
 		       		.css("top", $(window).height()/2+$(window).scrollTop() + "px")
 					.css("left", $(window).width()/2+$(window).scrollLeft() + "px")
 					.show("slow");
+					/*	$("#overlay").click(function() 
+						{
+						$(".ShippingForm").hide("slow");
+			       		$("#overlay").fadeOut('slow', function() 
+							{
+		            			$(this).remove();
+							});
+	   					});
+					*/
    					});	
    					
    					
@@ -406,7 +423,7 @@ $("document").ready(function()
 				     },
 			     complete: function(jqXHR, textStatus)
 			    	{
-			 			$(".ShippingForm").hide("slow");
+			 		$(".ShippingForm").hide("slow");
 		       		$(".ThankYou")
 		       		.css("top", $(window).height()/2+$(window).scrollTop() + "px")
 					.css("left", $(window).width()/2+$(window).scrollLeft() + "px")
